@@ -2,7 +2,7 @@
 name: Chocolatey
 on: push
 jobs:
-  test:
+  choco-push:
     runs-on: windows-latest
     steps:
       -
